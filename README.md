@@ -32,12 +32,6 @@
 
 
 
-<a href="https://github.com/imcotton/tmp-exam-verify/generate">
-<img src="https://user-images.githubusercontent.com/149541/169666724-8c6d72de-129c-4491-a15e-adf0bc1cbbfc.png"
-    height="32"
-    alt="Use this template"
-></a>
-or
 <a href="https://stackblitz.com/fork/github/imcotton/exam-verify?view=editor&terminal=test&title=exam&file=src/exam.ts">
 <img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg"
     height="32"
