@@ -38,7 +38,7 @@
     alt="Use this template"
 ></a>
 or
-<a href="https://stackblitz.com/fork/github/imcotton/tmp-exam-verify?view=editor&terminal=test&title=exam&file=src/exam.ts">
+<a href="https://stackblitz.com/fork/github/imcotton/exam-verify?view=editor&terminal=test&title=exam&file=src/exam.ts">
 <img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg"
     height="32"
     alt="Open in StackBlitz"
