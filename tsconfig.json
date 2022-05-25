@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/node16-strictest/tsconfig.json",
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "ES2019",
+    "lib": [
+      "ES2019"
+    ]
+  }
+}
+
