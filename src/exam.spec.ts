@@ -90,7 +90,7 @@ const label = (
         { q, a, f }: Record<'q' | 'a' | 'f', RA<string>>,
 ) => pipe(
 
-    A.zip(A.zip(q ,a), f),
+    A.zip(A.zip(q, a), f),
 
     IO.traverseArray(([ [ q_, a_ ], f_ ]) => () => {
 
