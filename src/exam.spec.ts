@@ -1,6 +1,6 @@
 import {
-    describe,
-    it,
+    describe as desc,
+    test,
     expect,
 } from 'vitest'
 
@@ -59,7 +59,7 @@ const exam_str = flow(
 
 
 
-const test = exam_str('To', 'Do') === 'T.B.D' ? it.skip : it
+const describe = desc.skipIf(exam_str('To', 'Do') === 'T.B.D')
 
 
 
