@@ -10,7 +10,7 @@
     "node": ">=14"
   },
   "dependencies": {
-    "fp-ts": "^2.12.1"
+    "fp-ts": "^2.12.2"
   },
   "devDependencies": {
     "@tsconfig/node16-strictest": "^1.0.3",
