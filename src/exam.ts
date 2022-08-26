@@ -44,7 +44,7 @@ export const exam = (quiz: CharArr, attempt: CharArr): FlagArr => pipe(
                 O.map(i => S.modify(mark(i))),
             )),
             S.chain(O.match(
-                () => flag('D'),
+                () => flag<CharArr>('D'),
                 S.apSecond(flag('Y')),
             )),
         )
